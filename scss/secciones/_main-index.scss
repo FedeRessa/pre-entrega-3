@@ -1,0 +1,52 @@
+/* MAIN */
+.flex-padre{
+    background-color: #282A3A;
+    padding: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.flex-padre div{
+    background-color: #d86ed3;
+    border: 2px color #ee0ce3 solid;
+    padding: 15px;
+    width: 280px;
+    height: 280px;
+}
+
+.flex-padre img{
+    width: 280px;
+}
+
+
+.titulos{
+    color: white;
+    background-color: #282A3A;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.flex-padre p{
+    color: white;
+    text-align: center;
+    font-family:"NunitoSans-Regular" ;
+}
+
+ul{
+    background-color: #282A3A;
+}
+
+li{
+    background-color: #d86ed3;
+    margin: 10px;
+    display: inline;
+    padding: 10px;
+}
+
+nav a{
+    text-transform: uppercase;
+}
